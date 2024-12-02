@@ -26,7 +26,8 @@
         "clippy",
         "rubber duck",
         "horse",
-        "deno"
+        "deno",
+        "mojave"
     ],
     "license": "MIT",
     "icon": "icon.png",
@@ -170,7 +171,8 @@
                             "paint black",
                             "paint brown",
                             "magical",
-                            "warrior"
+                            "warrior",
+                            "mojave"
                         ],
                         "default": "brown",
                         "description": "Pet color",
@@ -194,7 +196,8 @@
                             "snake",
                             "totoro",
                             "turtle",
-                            "zappy"
+                            "zappy",
+                            "mojave"
                         ],
                         "default": "cat",
                         "description": "Pet type",

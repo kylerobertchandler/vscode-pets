@@ -19,6 +19,7 @@ export const enum PetColor {
     magical = 'magical',
     warrior = 'warrior',
     null = 'null',
+    mojave = 'mojave'
 }
 
 export const enum PetType {
@@ -41,7 +42,7 @@ export const enum PetType {
     turtle = 'turtle',
     zappy = 'zappy',
     null = 'null',
-    miya = 'miya',
+    mojave = 'mojave',
 }
 
 export const enum PetSpeed {
@@ -107,6 +108,7 @@ export const ALL_PETS = [
     PetType.totoro,
     PetType.turtle,
     PetType.zappy,
+    PetType.mojave,
 ];
 export const ALL_COLORS = [
     PetColor.black,
@@ -128,6 +130,7 @@ export const ALL_COLORS = [
     PetColor.paintbrown,
     PetColor.magical,
     PetColor.warrior,
+    PetColor.mojave,
     PetColor.null,
 ];
 export const ALL_SCALES = [

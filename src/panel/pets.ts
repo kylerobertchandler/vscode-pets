@@ -18,6 +18,7 @@ import { Totoro } from './pets/totoro';
 import { Turtle } from './pets/turtle';
 import { Zappy } from './pets/zappy';
 import { IPetType } from './states';
+import { Mojave } from './pets/mojave';
 
 export class PetElement {
     el: HTMLImageElement;
@@ -213,6 +214,8 @@ export function createPet(
             return new Turtle(...standardPetArguments, PetSpeed.verySlow);
         case PetType.horse:
             return new Horse(...standardPetArguments, PetSpeed.normal);
+        case PetType.mojave:
+            return new Mojave(...standardPetArguments, PetSpeed.normal);
         default:
             throw new InvalidPetException("Pet type doesn't exist");
     }
@@ -256,6 +259,8 @@ export function availableColors(petType: PetType): PetColor[] {
             return Turtle.possibleColors;
         case PetType.horse:
             return Horse.possibleColors;
+        case PetType.mojave:
+            return Mojave.possibleColors;
         default:
             throw new InvalidPetException("Pet type doesn't exist");
     }
