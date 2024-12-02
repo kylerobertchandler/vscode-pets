@@ -1,6 +1,6 @@
 <div align='center'>
 
-# VS Code Pets
+# VS Code Pets (Modified to add Mojave)
 
 ![icon](https://github.com/tonybaloney/vscode-pets/raw/main/icon.png)
 </div>    
