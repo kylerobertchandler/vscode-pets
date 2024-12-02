@@ -93,6 +93,10 @@ const pets: { [key: string]: { colors: string[]; states: string[] } } = {
         colors: ['yellow'],
         states: ['idle', 'run', 'swipe', 'walk', 'walk_fast', 'with_ball'],
     },
+    mojave: {
+        colors: ['mojave'],
+        states: ['idle', 'run', 'swipe', 'walk', 'walk_fast', 'with_ball'],
+    },
     rat: {
         colors: ['gray', 'white', 'brown'],
         states: ['idle', 'run', 'swipe', 'walk', 'walk_fast', 'with_ball'],
