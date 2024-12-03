@@ -223,7 +223,6 @@ export function createPet(
 
 export function availableColors(petType: PetType): PetColor[] {
     switch (petType) {
-        /*
         case PetType.cat:
             return Cat.possibleColors;
         case PetType.chicken:
@@ -260,7 +259,6 @@ export function availableColors(petType: PetType): PetColor[] {
             return Turtle.possibleColors;
         case PetType.horse:
             return Horse.possibleColors;
-            */
         case PetType.mojave:
             return Mojave.possibleColors;
         default:
