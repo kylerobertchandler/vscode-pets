@@ -9,11 +9,11 @@
     "l10n": "./l10n",
     "repository": {
         "type": "github",
-        "url": "https://github.com/tonybaloney/vscode-pets"
+        "url": "https://github.com/kylerobertchandler/vscode-pets"
     },
-    "homepage": "https://tonybaloney.github.io/vscode-pets",
-    "bugs": "https://github.com/tonybaloney/vscode-pets/issues",
-    "publisher": "tonybaloney",
+    "homepage": "https://github.com/kylerobertchandler/vscode-pets",
+    "bugs": "https://github.com/kylerobertchandler/vscode-pets/issues",
+    "publisher": "kylerobertchandler",
     "categories": [
         "Other"
     ],
@@ -54,7 +54,7 @@
                 {
                     "type": "webview",
                     "id": "petsView",
-                    "name": "VS Code Pets",
+                    "name": "VS Code Mojave",
                     "when": "vscode-pets.position == 'explorer'",
                     "icon": "media/dog.svg"
                 }
