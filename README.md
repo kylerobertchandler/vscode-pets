@@ -2,7 +2,7 @@
 
 # Coding Buddy Mojave
 
-![icon](https://github.com/kylerobertchandler/vscode-pets/blob/main/icon.png)
+![icon](https://github.com/kylerobertchandler/vscode-pets/blob/main/blueberry.png)
 </div>    
 
 <p align="center">
