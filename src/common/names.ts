@@ -1,5 +1,4 @@
 import { CAT_NAMES } from '../panel/pets/cat';
-/*
 import { CHICKEN_NAMES } from '../panel/pets/chicken';
 import { CLIPPY_NAMES } from '../panel/pets/clippy';
 import { COCKATIEL_NAMES } from '../panel/pets/cockatiel';
@@ -17,7 +16,6 @@ import { ZAPPY_NAMES } from '../panel/pets/zappy';
 import { RAT_NAMES } from '../panel/pets/rat';
 import { TURTLE_NAMES } from '../panel/pets/turtle';
 import { HORSE_NAMES } from '../panel/pets/horse';
-*/
 import { MOJAVE_NAMES } from '../panel/pets/mojave';
 import { PetType } from './types';
 
@@ -25,7 +23,6 @@ export function randomName(type: PetType): string {
     const collection: ReadonlyArray<string> =
         (
             {
-                /*
                 [PetType.cat]: CAT_NAMES,
                 [PetType.chicken]: CHICKEN_NAMES,
                 [PetType.dog]: DOG_NAMES,
@@ -44,7 +41,6 @@ export function randomName(type: PetType): string {
                 [PetType.rat]: RAT_NAMES,
                 [PetType.turtle]: TURTLE_NAMES,
                 [PetType.horse]: HORSE_NAMES,
-                */
                 [PetType.mojave]: MOJAVE_NAMES,
             } as Record<PetType, ReadonlyArray<string>>
         )[type] ?? CAT_NAMES;

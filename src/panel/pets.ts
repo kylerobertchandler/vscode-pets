@@ -1,5 +1,4 @@
 import { PetColor, PetSize, PetSpeed, PetType } from '../common/types';
-/*
 import { Cat } from './pets/cat';
 import { Chicken } from './pets/chicken';
 import { Clippy } from './pets/clippy';
@@ -18,7 +17,6 @@ import { Snake } from './pets/snake';
 import { Totoro } from './pets/totoro';
 import { Turtle } from './pets/turtle';
 import { Zappy } from './pets/zappy';
-*/
 import { IPetType } from './states';
 import { Mojave } from './pets/mojave';
 
@@ -180,7 +178,6 @@ export function createPet(
     ] = [el, collision, speech, size, left, bottom, petRoot, floor, name];
 
     switch (petType) {
-        /*
         case PetType.cat:
             return new Cat(...standardPetArguments, PetSpeed.normal);
         case PetType.chicken:
@@ -217,7 +214,6 @@ export function createPet(
             return new Turtle(...standardPetArguments, PetSpeed.verySlow);
         case PetType.horse:
             return new Horse(...standardPetArguments, PetSpeed.normal);
-            */
         case PetType.mojave:
             return new Mojave(...standardPetArguments, PetSpeed.normal);
         default:
